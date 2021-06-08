@@ -38,7 +38,7 @@ const logMessage = (message) => {
 }
 
 // CalorieTracker has nothing to do with logging
-// point is to make changes on sigle place only
+// point is to make changes on sigle place (module) only
 class CalorieTracker {
 	constructor(maxCalories) {
 		this.maxCalories = maxCalories;
